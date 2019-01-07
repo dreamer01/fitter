@@ -1,0 +1,49 @@
+{
+  "name": "fitter",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+    "jest": "^23.6.0",
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/Raleway",
+      "./assets/fonts/Quicksand"
+    ]
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "haversine": "^1.1.0",
+    "immutable": "^3.8.2",
+    "moment": "^2.23.0",
+    "react": "16.3.1",
+    "react-native": "~0.55.2",
+    "react-native-calendars": "^1.19.3",
+    "react-native-elements": "^0.19.1",
+    "react-native-maps": "^0.22.1",
+    "react-native-swipeout": "^2.3.6",
+    "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.5.5",
+    "realm": "^2.21.1"
+  },
+  "description": "Features :",
+  "main": "index.js",
+  "keywords": [
+    "Fitness",
+    "app",
+    "react-native"
+  ],
+  "author": "Pushpendra Singh",
+  "license": "ISC"
+}
